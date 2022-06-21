@@ -1,0 +1,35 @@
+{
+    "İSTANBUL": {
+        "Zorlu PSM - Turkcell Platinum Sahnesi": "https://maps.google.com/maps?q=Zorlu%20PSM%20-%20Turkcell%20Platinum%20Sahnesi&t=&z=13&ie=UTF8&iwloc=&output=embed",
+        "KüçükÇiftlik Park": "https://maps.google.com/maps?q=K%C3%BC%C3%A7%C3%BCk%C3%87iftlik%20Park&t=&z=13&ie=UTF8&iwloc=&output=embed",
+        "Kadıköy Halk E.M": "https://maps.google.com/maps?q=Kad%C4%B1k%C3%B6y%20Halk%20E%C4%9Fitimi%20Merkezi%20ve%20Ak%C5%9Fam%20Sanat%20Okulu%20Kurs%20Merkezi&t=&z=13&ie=UTF8&iwloc=&output=embed",
+        "Beşiktaş Sahne": "https://maps.google.com/maps?q=Be%C5%9Fikta%C5%9F%20Sahne&t=&z=13&ie=UTF8&iwloc=&output=embed",
+        "İstanbul Pera Müzesi": "https://maps.google.com/maps?q=%C4%B0stanbul%20Pera%20M%C3%BCzesi&t=&z=13&ie=UTF8&iwloc=&output=embed",
+        "Bostancı Gösteri Merkezi": "https://maps.google.com/maps?q=Bostanc%C4%B1%20G%C3%B6steri%20Merkezi&t=&z=13&ie=UTF8&iwloc=&output=embed",
+        "Mall of İstanbul MOİ Sahne": "https://maps.google.com/maps?q=Mall%20of%20%C4%B0stanbul%20MO%C4%B0%20Sahne&t=&z=13&ie=UTF8&iwloc=&output=embed",
+        "Beşiktaş Yıldız Parkı": "https://maps.google.com/maps?q=be%C5%9Fikta%C5%9F%20y%C4%B1ld%C4%B1z%20mark%C4%B1&t=&z=13&ie=UTF8&iwloc=&output=embed"
+    },
+    "ANKARA": {
+        "ODTÜ MD Vişnelik Çim Amfi": "https://maps.google.com/maps?q=ODT%C3%9C%20MD%20Vi%C5%9Fnelik%20%C3%87im%20Amfi%20ANKARA&t=&z=13&ie=UTF8&iwloc=&output=embed",
+        "Cinemaximum Podium AVM": "https://maps.google.com/maps?q=Cinemaximum%20Podium%20AVM&t=&z=13&ie=UTF8&iwloc=&output=embed",
+        "Şinasi Sahnes": "https://maps.google.com/maps?q=Ankara%20%C5%9Einasi%20Sahnesi&t=&z=13&ie=UTF8&iwloc=&output=embed",
+        "Ankara CerModern": "https://maps.google.com/maps?q=Ankara%20CerModern&t=&z=13&ie=UTF8&iwloc=&output=embed"
+    },
+    "İZMİR": {
+        "17. Yeşilova Höyüğü Ziyaretçi Merkezi": "https://maps.google.com/maps?q=17.%20Ye%C5%9Filova%20H%C3%B6y%C3%BC%C4%9F%C3%BC%20Ziyaret%C3%A7i%20Merkezi&t=&z=13&ie=UTF8&iwloc=&output=embed",
+        "İzmir Arena": "https://maps.google.com/maps?q=izmir%20arena&t=&z=13&ie=UTF8&iwloc=&output=embed"
+    },
+    "BALIKESİR": {
+        "Güre Amfi Tiyatro": "https://maps.google.com/maps?q=G%C3%BCre%20Amfi%20Tiyatro&t=&z=13&ie=UTF8&iwloc=&output=embed",
+        "Balıkesir AVM": "https://maps.google.com/maps?q=Bal%C4%B1kesir%20yaylada%20AVM&t=&z=13&ie=UTF8&iwloc=&output=embed"
+    },
+    "BURSA": {
+        "Osmangazi Salonu": "https://maps.google.com/maps?q=MER%C4%B0NOS%20ATAT%C3%9CRK%20KONGRE%20VE%20K%C3%9CLT%C3%9CR%20MERKEZ%C4%B0&t=&z=13&ie=UTF8&iwloc=&output=embed"
+    },
+    "KOCAELİ": {
+        "Kocaeli Symbol AVM": "https://maps.google.com/maps?q=Kocaeli%20Symbol%20AVM&t=&z=13&ie=UTF8&iwloc=&output=embed"
+    },
+    "TUNCELİ": {
+        "Tunceli sinema 62": "https://maps.google.com/maps?q=Tunceli%20sinema%2062&t=&z=13&ie=UTF8&iwloc=&output=embed"
+    }
+}

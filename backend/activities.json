@@ -1,0 +1,390 @@
+[
+    {
+        "activityID": 1,
+        "activityCategory": "TİYATRO",
+        "activitySponsors": [
+            "BKM",
+            "ECZACIBAŞI"
+        ],
+        "activityIMGS": [
+            "/base.jpg"
+        ],
+        "title": "Bitmeyen Gece",
+        "description": "80'li yılların mafyasından kaçan baş karakter Cahit bir binaya sığınır ve bitmek bilmeyen bir gecede mafyadan kurtulmaya çalışırken bina sakinlerinin olaylara etkisini anlatmaktadır",
+        "dateScale": [
+            "2022-06-10",
+            "2022-06-11",
+            "2022-06-12"
+        ],
+        "beginingTime": "22:00",
+        "currentProvinces": [
+            {
+                "İSTANBUL": "KüçükÇiftlik Park"
+            },
+            {
+                "ANKARA": "ODTÜ MD Vişnelik Çim Amfi"
+            }
+        ],
+        "chairPrices": [
+            {
+                "Sahneye uzaklık 1": 40.5
+            },
+            {
+                "Sahneye uzaklık 2": 30
+            },
+            {
+                "Sahneye uzaklık 3": 17
+            }
+        ]
+    },
+    {
+        "activityID": 2,
+        "activityCategory": "DANS",
+        "activitySponsors": [
+            "ACIBADEM"
+        ],
+        "activityIMGS": [
+            "/dansin-ritmii-hodja.png"
+        ],
+        "title": "Dansın Ritmi",
+        "description": "Bu programba serbest dans sanatçıların karma dansları sunulmaktadır",
+        "dateScale": [
+            "2022-07-21"
+        ],
+        "beginingTime": "12:00",
+        "currentProvinces": [
+            {
+                "İSTANBUL": "Kadıköy Halk E.M"
+            },
+            {
+                "BALIKESİR": "Güre Amfi Tiyatro"
+            }
+        ],
+        "chairPrices": [
+            {
+                "Sahneye uzaklık 1": 30
+            },
+            {
+                "Sahneye uzaklık 2": 20
+            }
+        ]
+    },
+    {
+        "activityID": 3,
+        "activityCategory": "SİNEMA",
+        "activitySponsors": [
+            "CİNEMAXİUMUM",
+            "AVŞAR SİNEMA"
+        ],
+        "activityIMGS": [
+            "/MV5BNThjZjBiODAtMWU3ZC00NDJiLWEwMjktYTRmYWM5Njk3NDg3XkEyXkFqcGdeQXVyNDI3NjU1NzQ@._V1_FMjpg_UX562_.jpg",
+            "/MV5BNmVkNWJmZWEtYzQ5Ni00ODRiLTliYzktZjliNDU0ZWNiNTAwXkEyXkFqcGdeQXVyMTA3MDU5MzE1._V1_FMjpg_UX1280_.jpg",
+            "/MV5BZmRkOTY1YzAtNDEwNC00N2U2LTkyZGEtNzFiZjYzZmMxMzg1XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_FMjpg_UX1200_.jpg"
+        ],
+        "title": "Paranormal Activity: Next of Kin",
+        "description": "Film, doğaüstü durumlarla karşı karşıya kalan insanların hayatına odaklanılan Paranormal Activity serisinin 7. devam halkasıdır.",
+        "dateScale": [
+            "2022-06-28"
+        ],
+        "beginingTime": "23:00",
+        "currentProvinces": [
+            {
+                "KOCAELİ": "Kocaeli Symbol AVM"
+            },
+            {
+                "TUNCELİ": "Tunceli sinema 62"
+            },
+            {
+                "ANKARA": "Cinemaximum Podium AVM"
+            },
+            {
+                "İSTANBUL": "Kadıköy Halk E.M"
+            },
+            {
+                "BALIKESİR": "Balıkesir AVM"
+            }
+        ],
+        "chairPrices": [
+            {
+                "Tam Bilet": 60
+            },
+            {
+                "Öğrenci Bileti": 35
+            }
+        ]
+    },
+    {
+        "activityID": 4,
+        "activityCategory": "TALKSHOW",
+        "activitySponsors": [],
+        "activityIMGS": [
+            "/maxresdefault.jpg"
+        ],
+        "title": "KALT'ın PODCAST'i",
+        "description": "Ozan Akyol ve Erman Çağlar en taze fikirlerini sizlere ilk elden ve memnuniyet nişanesi olabilecek tüm hislerinize talip olarak sunuyor. Sözlerimiz sözleriniz, dualarımız dualarınızdır ya da değildir. Süslü laflarla geçemez bir ömür ve de kalite aceleye gelmez.",
+        "dateScale": [
+            "2022-05-04"
+        ],
+        "beginingTime": "21:00",
+        "currentProvinces": [
+            {
+                "İSTANBUL": "Beşiktaş Sahne"
+            }
+        ],
+        "chairPrices": [
+            {
+                "tüm kokltuklar": 70
+            }
+        ]
+    },
+    {
+        "activityID": 5,
+        "activityCategory": "RESİM",
+        "activitySponsors": [
+            "TURKCELL",
+            "TURKİSH AİRLİNES",
+            "HEPSİBURADA"
+        ],
+        "activityIMGS": [
+            "/photo-1655400108350-80022d39d06d.jpg",
+            "/photo-1655420028267-0b546b6bdfd9.jpg",
+            "/photo-1655490540248-89af9e43d46c.jpg"
+        ],
+        "title": "Nicolas Roshylo'nun Eserleri",
+        "description": "Ukranyalı bağımsız fotoğrafçı ve diraktör Nicolas Roshylo'nun eserlerinin sergineceği etkinliktir",
+        "dateScale": [
+            "2022-09-15"
+        ],
+        "beginingTime": "14:00",
+        "currentProvinces": [
+            {
+                "İSTANBUL": "İstanbul Pera Müzesi"
+            },
+            {
+                "İZMİR": "17. Yeşilova Höyüğü Ziyaretçi Merkezi"
+            }
+        ],
+        "chairPrices": []
+    },
+    {
+        "activityID": 6,
+        "activityCategory": "KONSER",
+        "activitySponsors": [
+            "İNDİE88",
+            "Compost Records"
+        ],
+        "activityIMGS": [
+            "/unnamed.jpg",
+            "/mr2.jpg",
+            "/ma.jpg"
+        ],
+        "title": "Marbert Rocel Konseri",
+        "description": "2005 yılında doğan Malik ve Panthera Krause'un oda arkadaşlığından doğan ve müzik camiasında başarıya ulaşan bu grup konser ayağı olarak Türkiye'ye uğramaktadır",
+        "dateScale": [
+            "2010-05-20"
+        ],
+        "beginingTime": "14:00",
+        "currentProvinces": [
+            {
+                "İSTANBUL": "Beşiktaş Yıldız Parkı"
+            },
+            {
+                "İZMİR": "İzmir Arena"
+            }
+        ],
+        "chairPrices": []
+    },
+    {
+        "activityID": 7,
+        "activityCategory": "KONSER",
+        "activitySponsors": [
+            "BORUSAN",
+            "ECZACIBAŞI"
+        ],
+        "activityIMGS": [
+            "/louissss1TMCC.png",
+            "/5efb3389d7471c16898a08b6978707c9.png",
+            "/ESs025NXQAAoMjl.jpg"
+        ],
+        "title": "Louis Tomlinson",
+        "description": "One Direction’ın üyesi Louis Tomlinson ilk kez İstanbul'da. Ülkemizde de büyük hayran kitlesine sahip İngiliz-İrlandalı müzik grubu One Direction'ın üyesi Louis Tomlinson solo projesi ile ilk kez ülkemizde! 2020 yılında ilk solo albümünü yayınlayan ve solo kariyerinde de kendisini kanıtlayan Louis Tomlinson, 30 Haziran 2022 tarihinde BITEXEN ana sponsorluğu ve TemaCC & Smiley Strawberry organizasyonu ile ilk kez İstanbul'da KüçükÇiftlik Park'ta sahne alacak. Louis Tomlinson 2010 yılında katıldığı X Factor'ün yedinci sezonunda dikkati çekti. Nicole Scherzinger önerisi ile kurulan One Direction grubuna dahil oldu ve X Factor yarışmasına böylece devam etti. One Direction yarışmayı üçüncülükle bitirdi. İlk albümleri Up All Night,18 Kasım 2011'de piyasaya sürülmüştür. Sonra da 2012 yılında 'Take Me Home' adlı albümü çıkarmışlardır. Ardından 25 Kasım 2013'te ''Midnight Memories'' adlı üçüncü stüdyo albümlerini yayınladılar. Daha önceki albümleriyle kırdıkları rekoru bu albümleriyle de bir kez daha kırdılar ve tarihinin en hızlı satılan albümü unvanına bir kez daha sahip oldular. En son olarak 17 Kasım 2014'te ''FOUR'' adlı dördüncü stüdyo albümlerini yayınladılar. FOUR albümünün Deluxe versiyonu iTunes'da 67 ülkede #1 numaraya yerleşti. 31 Ocak 2020 tarihinde, yayınladığı ilk solo albümü Walls, 50 ülkenin iTunes listesinde 1 numaraya ulaştı.",
+        "dateScale": [
+            "2022-07-22"
+        ],
+        "beginingTime": "18:00",
+        "currentProvinces": [
+            {
+                "İSTANBUL": "KüçükÇiftlik Park"
+            }
+        ],
+        "chairPrices": [
+            {
+                "tüm kokltuklar": 50.75
+            }
+        ]
+    },
+    {
+        "activityID": 8,
+        "activityCategory": "KONSER",
+        "activitySponsors": [
+            "BORUSAN",
+            "ECZACIBAŞI"
+        ],
+        "activityIMGS": [
+            "/5db2f48718c7730d785ec24c.jpg",
+            "/maxredsa.jpg",
+            "/2486524_810x458.jpg"
+        ],
+        "title": "Karsu Konseri",
+        "description": "Piyanonun başında devleşen, söylediği şarkılar ve farklı yorumuyla son dönemin adından başarıyla söz ettiren ismi Karsu, 17 Şubat’ta Bostancı Gösteri Merkezi’nde.",
+        "dateScale": [
+            "2021-02-17"
+        ],
+        "beginingTime": "21:00",
+        "currentProvinces": [
+            {
+                "İSTANBUL": "Bostancı Gösteri Merkezi"
+            }
+        ],
+        "chairPrices": [
+            {
+                "Sahneye uzaklık 1": 80
+            },
+            {
+                "Sahneye uzaklık 2": 45
+            },
+            {
+                "Sahneye uzaklık 3": 37.5
+            }
+        ]
+    },
+    {
+        "activityID": 9,
+        "activityCategory": "KONSER",
+        "activitySponsors": [
+            "CNBC-E",
+            "ETNA",
+            "MEMORİAL",
+            "BUSPORT"
+        ],
+        "activityIMGS": [
+            "/leonardcohen.jpg",
+            "/raw_efsanevi-muzisyen-leonard-cohen-istanbul39da-konser-verdi_134518430.jpg",
+            "/leonardcohen2.jpg"
+        ],
+        "title": "Leonard Cohen",
+        "description": "'Baby I’ve been here before, I know this room I’ve walked this floor...', Müzikseverlerin yıllardır dört gözle beklediği efsanevi müzisyen, söz yazarı, şair Leonard Cohen, 2012 Old Ideas Dünya Turnesi kapsamında, 19 Eylül 2012 tarihinde sadece bir konser için İstanbul’a geliyor. AEG Live ve Purple Concerts organizasyonu ile gerçekleşecek etkinlik için Biletler 15 Haziran tarihinde satışa çıkacaktır. Leonard Cohen, 2012 Dünya Turnesi kapsamında vereceği konserlerinde 'Dance Me To The End Of Love', 'Ain’t No Cure for Love', 'Bird on a Wire', 'Chelsea Hotel #2', 'Suzanne', 'Hallelujah', 'So Long, Marianne', 'I’m Your Man', 'First We Take Manhattan' gibi unutulmaz şarkılarına da yer verecek. Sanatçının İstanbul konserinde klasikleşmiş şarkılarına hazır olun…",
+        "dateScale": [
+            "2012-09-10"
+        ],
+        "beginingTime": "21:00",
+        "currentProvinces": [
+            {
+                "İSTANBUL": "Bostancı Gösteri Merkezi"
+            }
+        ],
+        "chairPrices": []
+    },
+    {
+        "activityID": 10,
+        "activityCategory": "KONSER",
+        "activitySponsors": [
+            "ZORLU PERFORMANS SANATLARI MERKEZİ",
+            "GARANTİ BBVA",
+            "TURKCELL",
+            "DIGITURK",
+            "MERCEDES BENZ"
+        ],
+        "activityIMGS": [
+            "/Lera_Lynn_2015.jpg",
+            "/lera-lynn-please-credit-amos-perrine-53a97514b844c62804f511bd333f88f7f1f56728-s1100-c50.jpg",
+            "/MV5BMjE2YTYyMzctMjhhZi00NGYyLTk5YWUtMjRiYjBjYzVhZTEwXkEyXkFqcGdeQXVyODQ4NDAyNzc@._V1_.jpg"
+        ],
+        "title": "Lera Lynn Konseri",
+        "description": "Kült televizyon serisi 'True Detective'in müziklerinin arkasındaki dâhiyane isim, çağdaş Amerikan folk sahnesinin yükselen yıldızı Lera Lynn, 12 Kasım’da Garanti BBVA konserleri kapsamında yeniden Zorlu PSM’de!",
+        "dateScale": [
+            "2019-11-12"
+        ],
+        "beginingTime": "20:30",
+        "currentProvinces": [
+            {
+                "İSTANBUL": "Zorlu PSM - Turkcell Platinum Sahnesi"
+            }
+        ],
+        "chairPrices": []
+    },
+    {
+        "activityID": 11,
+        "activityCategory": "TİYATRO",
+        "activitySponsors": [],
+        "activityIMGS": [
+            "/kocasinipisiren2.jpg",
+            "/kocasini-pisiren_01.png",
+            "/kocasini-pisiren_03.png",
+            "/kocasini-pisiren_02.png"
+        ],
+        "title": "Kocasını Pişiren Kadın",
+        "description": "'Kocasını Pişiren Kadın' (The Woman Who Cooked Her Husband) çağdaş bir yazar olan, oyuncu ve yönetmen olarak da dikkat çeken, çok yönlü tiyatro insanı Debbie Isitt’in elestirmenlerce en basarılı bulunan oyunu, sizlerle buluşuyor...",
+        "dateScale": [
+            "2022-06-18"
+        ],
+        "beginingTime": "17:00",
+        "currentProvinces": [
+            {
+                "ANKARA": "Şinasi Sahnesi"
+            }
+        ],
+        "chairPrices": []
+    },
+    {
+        "activityID": 12,
+        "activityCategory": "DANS",
+        "activitySponsors": [],
+        "activityIMGS": [
+            "/1B348-gorsel.jpg"
+        ],
+        "title": "Two Room Apartment",
+        "description": "2013 yılı Aralık ayında İsrail Dans Eleştirmenleri Cemiyeti tarafından “yılın en iyi performansı” seçilen 'Two Room Apartment', Liat Dror ve Nir Ben-Gal tarafından 1987 yılında İsrail’de prömiyeri gerçekleştirilen ve bağımsız İsrail koreografisinin gelişiminde bir mihenk taşı kabul edilen eserin bir tekrar yorumudur. 'Two Room Apartment', yalın dans dili ve minimalist estetik ile yaşam kavramını geleneklerin ve davranışların kesin, neredeyse zorunlu tekrarlarının oluşturduğu bir çerçeve olarak açımlıyor. Eserde iki farklı türde sınır ele alınıyor: Bir tarafta somut çerçeveler ve sınırlar, ülkeler arasındaki sınırlar, iki oda arasındaki sınırlar; diğer tarafta ise içsel sınırlar, kişinin kendisi için koyduğu sınırlar.",
+        "dateScale": [
+            "2022-06-21"
+        ],
+        "beginingTime": "20:30",
+        "currentProvinces": [
+            {
+                "ANKARA": "Ankara CerModern"
+            }
+        ],
+        "chairPrices": []
+    },
+    {
+        "activityID": 13,
+        "activityCategory": "DANS",
+        "activitySponsors": [
+            "ALAGÖZ HOLDİNG",
+            "DREAM TÜRK",
+            "RADYO104"
+        ],
+        "activityIMGS": [
+            "/kd_etkinlikimage.jpg",
+            "/1ARZ0_kddg.jpg",
+            "/kardeslik-destani_02.png",
+            "/kardeslik-destani_01.png",
+            "/kardeslik-destani_03.png"
+        ],
+        "title": "Kardeşlik Destanı Dans Gösterisi",
+        "description": "Alagöz Kültür Sanat'ın Hazırlamış Olduğu Kardeşlik Destanı Dans Gösterisi, seyirciyle buluşuyor... Alagöz Kültür Sanat’ın hazırladığı Kardeşlik Destanı Tiyatral Dans Gösterisi, sanatseverleri Nuh Tufanı’ndan Nevruz’a, destanlardan kahramanlara, ozanlardan şairlere, acılardan zaferlere uzanan görkemli bir yolculuğa çıkarıyor.Dede Korkut’un gözünden, Nuh Tufanı, Nevruz, Boğaçhan Destanı, Tomris Hatun (Kadın Kaan), Alpaslan, Cevanşir, Çanakkale Destanı, Kafkas İslam Ordusu, Mehmet Akif Ersoy, Ahmet Cevad, Aşık Veysel, Şehriyar Hare Bülbül, Karabağ’ın tekrar Türk yurduna kazandırılması konuları büyük bir titizlikle işlenmiştir. Türk topluluklarının kültürel zenginlikleri ile değerlerini sanatın birçok unsuruyla bir araya getirerek seyirciyle buluşturmayı hedefleyen Kardeşlik Destanı, aynı zamanda uluslararası normlardaki sanatçı kadrosu ile turizm değerlerini destekleyen nitelik ve yeterliliğe sahip bir görsel dans şölenidir.",
+        "dateScale": [
+            "2022-09-15"
+        ],
+        "beginingTime": "21:00",
+        "currentProvinces": [
+            {
+                "BURSA": "Osmangazi Salonu"
+            },
+            {
+                "İSTANBUL": "Mall of İstanbul MOİ Sahne"
+            }
+        ],
+        "chairPrices": []
+    }
+]
