@@ -26,7 +26,7 @@ böylece projemiz ayağa kalmış olucaktır
 
 
 ##Projemden görüntüler  
-
+![video](https://youtube.com/shorts/82XE8bhyIn8?feature=share)
 ![ss1](ss1.png)
 ![ss2](ss2.png)
 ![ss3](ss3.png)
