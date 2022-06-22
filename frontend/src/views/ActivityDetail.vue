@@ -10,14 +10,11 @@ var myRouter = useRoute();
 var activityDetail = ref({ "activityID": false, "activityCategory": false, "activitySponsors": [], "title": "", "description": "", "dateScale": [], "beginingTime": "", "currentProvinces": [], "chairPrices": [], "activityIMGS": ["/base.jpg"] });
 var actPlaces = [];
 var placeWithMap = ref([]);
-
+var fullUrl = window.location.href;
 onMounted(() => {
-    console.log(store.state.hostUrl + "activities/" + myRouter.params.val);
 
     axios.get(store.state.hostUrl + "activities/" + myRouter.params.val).then((act) => {
-
         activityDetail.value = act.data[0];
-        console.log(activityDetail.value);
         actPlaces.push(...act.data[0].currentProvinces);
     }).then(() => {
         var AllPlaceWithMap = [];
@@ -51,7 +48,24 @@ onMounted(() => {
         </Carousel>
         <div id="ActivityContent">
             <div id="ActivityHeadArea">
-                <h1>{{ activityDetail.title }}</h1>
+                <div>
+                    <h1>{{ activityDetail.title }}</h1>
+                    <div class="share_group">
+                        paylaş:
+
+                        <a :href="'https://www.facebook.com/sharer/sharer.php?u=#' + fullUrl" target="_blank">
+                            <fa icon="fa-brands fa-facebook-square"></fa>
+                        </a>&nbsp;
+                        <a :href="'http://twitter.com/share?text=' + fullUrl" target="_blank">
+                            <fa icon="fa-brands fa-twitter-square"></fa>
+                        </a>&nbsp;
+                        <a :href="'whatsapp://send?text=' + fullUrl" target="_blank">
+                            <fa icon="fa-brands fa-whatsapp-square"></fa>
+                        </a>&nbsp;
+
+                    </div>
+                </div>
+
                 <h4>
                     Başlangıç :{{ new Date(activityDetail.dateScale[0]).toLocaleDateString() }} <br />
                     Bitiş :{{ new Date(activityDetail.dateScale.at(-1)).toLocaleDateString() }}<br />
@@ -109,6 +123,14 @@ onMounted(() => {
 
 <style lang="scss">
 @import "@/assets/variables.scss";
+
+.share_group {
+    font-size: 1.5em;
+
+    a {
+        color: $black-mute
+    }
+}
 
 .mapouter {
     position: relative;

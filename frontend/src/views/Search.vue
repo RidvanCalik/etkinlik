@@ -3,47 +3,26 @@ import Activities from '@/components/Activities.vue';
 import store from '../store';
 import { onMounted, ref, watch } from 'vue';
 import axios from "axios";
-import FilterArea from '@/components/FilterArea.vue';
 import { useRoute } from 'vue-router'
 
 
 var myRouter = useRoute();
 var activities = ref([]);
-var searchValum = ref();
-
-watch(myRouter, (newVal) => {
-    searchValum.value = newVal.params.val;
-    filterBySearch(searchValum.value);
+watch(myRouter, (newV) => {
+    filterBySearch(newV.params.val);
 })
 onMounted(() => {
-
-    //component kurulduğunda aktiviteleri getiriyoruz
-    getAllActivities();
+    if (myRouter.params.val) {
+        filterBySearch(myRouter.params.val);
+    } else {
+        getAllActivities();
+    }
 })
-
 
 function getAllActivities() {
     axios.get(store.state.hostUrl + "activities/").then(res => { activities.value = [...res.data] });
 }
-//Filtre ayarlarının Toogle fonksiyonu
-var filterİsOpen = ref(false);
-function ToogleModal() {
-    if (filterİsOpen.value) {
-        document.getElementById("app").style.overflow = "auto";
-        document.getElementById("FilterArea").classList.value = "";
-    } else {
-        document.getElementById("app").style.overflow = "hidden";
-        document.getElementById("FilterArea").classList.value = "toogleFilter";
-    }
-    filterİsOpen.value = !filterİsOpen.value;
-}
 
-
-
-//filtreleme fonksiyonları
-function filterByParams(e) {
-    activities.value = [...e]
-}
 function filterBySearch(e) {
 
     if (e) {
@@ -70,10 +49,6 @@ function filterBySearch(e) {
 
     <div id="main">
 
-        <button @click="ToogleModal" id="FilterButton">
-            <fa icon="filter"></fa>
-        </button>
-
         <div id="ActivityhArea">
             <Activities v-for="act in activities" :key="act.activityID" :id="act.activityID"
                 :imgSrc="store.state.hostUrl + 'images' + act.activityIMGS[0]" :title="act.title"
@@ -81,7 +56,6 @@ function filterBySearch(e) {
 
         </div>
     </div>
-    <FilterArea @ToogleModal="ToogleModal" @filterByParams="(n) => filterByParams(n)" />
 
 </template>
 

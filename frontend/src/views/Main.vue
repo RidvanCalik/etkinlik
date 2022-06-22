@@ -15,11 +15,8 @@ import 'vue3-carousel/dist/carousel.css';
 var myRouter = useRoute();
 var activities = ref([]);
 var searchValum = ref();
+var isFilterMode = ref(false);
 
-watch(myRouter, (newVal) => {
-    searchValum.value = newVal.params.val;
-    filterBySearch(searchValum.value);
-})
 onMounted(() => {
 
     //component kurulduğunda güncel aktiviteleri getiriyoruz
@@ -50,16 +47,8 @@ function filterByCurrent(e) {
     activities.value = [...e]
 }
 function filterByParams(e) {
+    isFilterMode.value = true;
     activities.value = [...e]
-}
-function filterBySearch(e) {
-    if (e) {
-        axios.get(store.state.hostUrl + "filterByVal/" + e).then((e) => {
-            activities.value = [...e.data];
-        });
-    } else {
-        getAllActivities();
-    }
 }
 
 
@@ -77,24 +66,26 @@ function filterBySearch(e) {
         <button @click="ToogleModal" id="FilterButton">
             <fa icon="filter"></fa>
         </button>
-        <h2 style="text-align:left">Popüler Etkinlikler</h2>
-        <Carousel :autoplay="2000" :wrap-around="false">
-            <Slide v-for="act in activities" :key="act">
-                <div class="carousel__item">
-                    <Activities :id="act.activityID" :imgSrc="store.state.hostUrl + 'images' + act.activityIMGS[0]"
-                        :title="act.title" :description="act.description" :dateScale="act.dateScale"
-                        :activityCategory="act.activityCategory" />
-                </div>
-            </Slide>
+        <div v-if="!isFilterMode">
+            <h2 style="text-align:left">Popüler Etkinlikler</h2>
+            <Carousel :autoplay="2000" :wrap-around="false">
+                <Slide v-for="act in activities" :key="act">
+                    <div class="carousel__item">
+                        <Activities :id="act.activityID" :imgSrc="store.state.hostUrl + 'images' + act.activityIMGS[0]"
+                            :title="act.title" :description="act.description" :dateScale="act.dateScale"
+                            :activityCategory="act.activityCategory" />
+                    </div>
+                </Slide>
 
-            <template #addons>
-                <Pagination />
-            </template>
-        </Carousel>
+                <template #addons>
+                    <Pagination />
+                </template>
+            </Carousel>
 
-        <div id="SwitchArea">
-            <SwitchToogle title1="Güncel Etkinlikler" title2="Geçmiş Etkinlikler" id="SwitchToogle"
-                @filterByCurrent="(e) => filterByCurrent(e)" />
+            <div id="SwitchArea">
+                <SwitchToogle title1="Güncel Etkinlikler" title2="Geçmiş Etkinlikler" id="SwitchToogle"
+                    @filterByCurrent="(e) => filterByCurrent(e)" />
+            </div>
         </div>
         <div id="ActivityhArea">
             <Activities v-for="act in activities" :key="act.activityID" :id="act.activityID"

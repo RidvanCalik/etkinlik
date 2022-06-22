@@ -1,6 +1,12 @@
 <template>
   <div class="Header">
+    <div class="mainpagerouter">
+      <router-link :to="{
+        name: 'Main'
+      }">Anasayfa</router-link>
+    </div>
     <input placeholder="Etkinlik, Sanatçı veya Grup ara " v-model="searchVal" @keyup.enter="sendVal" />
+    <div></div>
   </div>
 </template>
 
@@ -14,7 +20,7 @@ var myRouter = useRouter();
 var searchVal = ref();
 function sendVal() {
   myRouter.push({ name: "search", params: { val: searchVal.value } });
-
+  searchVal.value = null;
 }
 
 </script>
@@ -23,7 +29,19 @@ function sendVal() {
 <style scoped lang="scss">
 @import "@/assets/variables.scss";
 
+.mainpagerouter {
+  display: flex;
+  justify-content: center;
+
+  a {
+    color: $black-soft;
+    text-decoration: none;
+  }
+}
+
+
 .Header {
+
   height: 60px;
   display: flex;
   align-items: center;
@@ -32,12 +50,17 @@ function sendVal() {
 
 
   input {
+    flex: 5;
     width: 40%;
     height: 65%;
     border-radius: 6px;
     border: 2px solid $text-light-2;
     padding-left: 20px;
 
+  }
+
+  div {
+    flex: 4;
   }
 }
 
