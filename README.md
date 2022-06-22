@@ -23,3 +23,11 @@ böylece serverimiz çalışıyor olucak
 > npm run dev
 
 böylece projemiz ayağa kalmış olucaktır
+
+
+##Projemden görüntüler  
+
+![ss1](ss1.png)
+![ss2](ss1.png)
+![ss3](ss3.png)
+![ss4](ss4.png)
